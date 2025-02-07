@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-import LogoWhite from '../assets/logo-white.svg';
+import LogoWhite from '../../assets/logo-white.svg';
 import "./Hero.scss";
 
 function Hero() {
