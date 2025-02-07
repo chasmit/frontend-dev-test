@@ -1,0 +1,64 @@
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}
+
+.hero {
+    background: url(../assets/hero.jpg) no-repeat center;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 50vw;
+    padding: 0;
+    color:white;
+
+    .row {
+        position: absolute;
+        width:100vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-rg-logo-white {
+        position: absolute;
+        left: 12vw;
+        width: 20vw;
+        top: 2.5vw;
+        margin-bottom:20%;
+    }
+
+    &-grid-container {
+        display:grid;
+        text-align: center;
+        align-items: center;
+        margin-top: 18%;
+        animation: fadeIn 2s;
+        -webkit-animation: fadeIn 2s;
+        font-size: 2.5vw;
+        font-weight: bold;
+        font-family: sans-serif;
+
+        & > .text-transparent {
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-color: white;
+            -webkit-text-stroke-width: 0.2vw;
+        }
+
+            
+        .hero-button {
+            background-color: #ae60d4;
+            color:white;
+            font-size: 1vw;
+            width: 11vw;
+            height: 4vw;
+            margin-top:2vw;
+            place-self: center;
+            border:0;
+        }
+    }
+
+}

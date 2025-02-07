@@ -1,10 +1,13 @@
+import { Container } from 'react-bootstrap';
 import './App.css';
+
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className="App">
-      <p>Base app</p>
-    </div>
+    <Container className="app-container">
+      <Hero/>
+    </Container>
   );
 }
 
