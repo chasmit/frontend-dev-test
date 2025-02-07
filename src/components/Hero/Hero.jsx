@@ -7,6 +7,10 @@ import LogoWhite from '../assets/logo-white.svg';
 import "./Hero.scss";
 
 function Hero() {
+    const handleClick = (event) => {
+        console.log("You have clicked the hero button", event.target);
+    }
+
     return (
         <Container className="hero" id="hero">
             <Row className="row">
@@ -20,7 +24,13 @@ function Hero() {
                 <div className="hero-grid-container">
                     <h1 className="text-transparent">WELCOME TO</h1>
                     <h1 className="text-filled">Rooster Grin</h1>
-                    <Button className="hero-button" class="button">BUTTON BUTTON</Button>
+                    <Button 
+                        className="hero-button" 
+                        class="button" 
+                        onClick={handleClick}
+                    >
+                        BUTTON BUTTON
+                    </Button>
                 </div>
             </Row>
         </Container>
