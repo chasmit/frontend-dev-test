@@ -1,0 +1,12 @@
+.hero-banner {
+    animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:100;
+    }
+}
