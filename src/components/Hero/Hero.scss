@@ -1,10 +1,6 @@
 @keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 100;
-    }
+    from { opacity: 0; }
+    to { opacity: 100; }
 }
 
 .hero {
@@ -32,8 +28,8 @@
         text-align: center;
         align-items: center;
         margin-top: 18%;
-        animation: fadeIn 2s;
-        -webkit-animation: fadeIn 2s;
+        animation-name: fade-in;
+        animation: fade-in 2s;
 
         & h1 {
             font-size: 6vw;
