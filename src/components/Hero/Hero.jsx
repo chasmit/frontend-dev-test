@@ -1,7 +1,8 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
+import { Button, 
+    Container, 
+    Image, 
+    Row 
+} from 'react-bootstrap';
 
 import LogoWhite from '../../assets/logo-white.svg';
 import "./Hero.scss";
@@ -13,25 +14,23 @@ function Hero() {
 
     return (
         <Container className="hero" id="hero">
-            <Row className="row">
+            <Row className="hero-row-logo">
                 <Image
                     src={LogoWhite}
                     className="hero-rg-logo-white"
                     alt="logo-white"
                 />
             </Row>
-            <Row className="row">
-                <div className="hero-grid-container">
-                    <h1 className="text-transparent">WELCOME TO</h1>
-                    <h1 className="text-filled">Rooster Grin</h1>
-                    <Button 
-                        className="hero-button" 
-                        class="button" 
-                        onClick={handleClick}
-                    >
-                        BUTTON BUTTON
-                    </Button>
-                </div>
+            <Row className="hero-row-text">
+                <h1 className="text-transparent">WELCOME TO</h1>
+                <h1 className="text-filled">Rooster Grin</h1>
+                <Button 
+                    className="hero-button" 
+                    class="button" 
+                    onClick={handleClick}
+                >
+                    BUTTON BUTTON
+                </Button>
             </Row>
         </Container>
     )

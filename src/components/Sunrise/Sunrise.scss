@@ -1,0 +1,35 @@
+.sunrise {
+    min-width: 100vw;
+    padding:0;
+
+    &-col-text {
+        background-color: white;
+        color:#633576;
+        max-width: 35vw;
+        margin: 8vw 0vw 0vw 15vw;
+        padding:0;
+
+        & > h1 {
+            color:#633576;
+            font-size:1.8vw;
+            font-weight:bold;
+        }
+        & p {
+            color:black;
+            font-size:1.1vw;
+            width: 80%;
+            margin-top:1vw;
+        }
+
+        & h4 {
+            font-size:1.3vw;
+            color:#633576;
+            font-weight:600;
+        }
+    }
+    &-col-image .hikers-sunrise {
+        background-size: cover;
+        width:100%;
+        height:100%;
+    }
+}
