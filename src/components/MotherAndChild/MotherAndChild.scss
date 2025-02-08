@@ -1,0 +1,44 @@
+@keyframes ripple-effect {
+    to {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+.mother-and-child {
+    display:grid;
+    min-width: 100vw;
+    background: url(../../assets/mother-and-child.jpg) no-repeat center;
+    background-size: cover;
+    padding:0;
+
+    &-text {
+        height:20vw;
+        margin: 11vw 0vw 0vw 24vw;
+
+        & h1 {
+            color:#633576;
+            font-size: 1.6vw;
+            font-weight:bold;
+        }
+
+        .button {
+            color:white;
+            height:3vw;
+            background-color:#fc731b;
+            margin-top:1vw;
+            cursor:pointer;
+            border:0;
+            margin-top:1vw;
+        
+            &-clicked {
+                color:white;
+                height:3vw;
+                background-color:#fc731b;
+                margin-top:1vw;
+                transform:rotate(360deg);
+                transition: transform 1s ease-in-out;
+            }
+        }
+    }
+}

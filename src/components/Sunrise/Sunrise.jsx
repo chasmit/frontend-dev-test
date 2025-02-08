@@ -6,7 +6,7 @@ import "./Sunrise.scss";
 
 function Sunrise() {
     return (
-        <Container className="sunrise" id="sunrise">
+        <Container className="sunrise container" id="sunrise">
             <Row className="row">
                 <Col className="col-md-6 sunrise-col-text">
                     <h1>LOREM IPSUM</h1>

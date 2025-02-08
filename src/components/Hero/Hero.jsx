@@ -13,7 +13,7 @@ function Hero() {
     }
 
     return (
-        <Container className="hero" id="hero">
+        <Container className="hero container" id="hero">
             <Row className="hero-row-logo">
                 <Image
                     src={LogoWhite}
