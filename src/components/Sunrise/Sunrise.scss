@@ -9,27 +9,30 @@
         margin: 8vw 0vw 0vw 15vw;
         padding:0;
 
-        & > h1 {
+        & h1 {
             color:#633576;
-            font-size:1.8vw;
+            font-size:5rem;
             font-weight:bold;
         }
         & p {
             color:black;
-            font-size:1.1vw;
+            font-size:3rem;
             width: 80%;
             margin-top:1vw;
         }
 
         & h4 {
-            font-size:1.3vw;
+            font-size: 4rem;
             color:#633576;
             font-weight:600;
         }
     }
-    &-col-image .sunrise-col-image {
-        background-size: cover;
-        width:100%;
-        height:auto;
+    &-col-image {
+
+        .hikers-sunrise {
+            background-size: cover;
+            width:100%;
+            height:auto;
+        }
     }
 }

@@ -4,6 +4,7 @@ import './App.css';
 import Hero from './components/Hero/Hero';
 import Sunrise from './components/Sunrise/Sunrise';
 import MotherAndChild from './components/MotherAndChild/MotherAndChild';
+import IconDetail from './components/IconDetail/IconDetail';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Sunrise/>
       <MotherAndChild/>
+      <IconDetail/>
     </Container>
   );
 }
