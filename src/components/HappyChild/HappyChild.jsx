@@ -4,22 +4,24 @@ import {
     Col, 
     Container, 
     Row } 
-from 'react-bootstrap';
+    from 'react-bootstrap';
 
-import "./MotherAndChild.scss";
+import "./HappyChild.scss";
 
-function MotherAndChild() {
+function HappyChild() {
     const [isAnimated,setIsAnimated] = useState(false);
-
-    const handleClick = () => {
-        setIsAnimated(!isAnimated);
-    };
+    
+        const handleClick = () => {
+            setIsAnimated(!isAnimated);
+        };
 
     return (
-        <Container className="mother-and-child container" id="mother-and-child">
-            <Row>
-                <Col md={12} className="mother-and-child-text">
+        <Container className="happy-child container">
+            <Row className="happy-child-text">
+                <Col md={6}/>
+                <Col md={6}>
                     <h1>LOREM IPSUM</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                     <Button
                         className="button"
                         style={{
@@ -35,4 +37,4 @@ function MotherAndChild() {
     )
 };
 
-export default MotherAndChild;
+export default HappyChild;
