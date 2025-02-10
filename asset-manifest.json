@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frontend-dev-test/static/css/main.769d4198.css",
+    "main.css": "/frontend-dev-test/static/css/main.04a4e0db.css",
     "main.js": "/frontend-dev-test/static/js/main.22cd657a.js",
     "static/media/hero.jpg": "/frontend-dev-test/static/media/hero.9a710d871f2c3c7db665.jpg",
     "static/media/happy-child.jpg": "/frontend-dev-test/static/media/happy-child.94ddf3c2924534d8eb64.jpg",
@@ -14,11 +14,11 @@
     "static/media/facebook-logo.svg": "/frontend-dev-test/static/media/facebook-logo.873670bea26cb33377a1c9d4fb5242bb.svg",
     "static/media/instagram-logo.svg": "/frontend-dev-test/static/media/instagram-logo.3db237929f04d33b0d8113a8b5e95d3c.svg",
     "index.html": "/frontend-dev-test/index.html",
-    "main.769d4198.css.map": "/frontend-dev-test/static/css/main.769d4198.css.map",
+    "main.04a4e0db.css.map": "/frontend-dev-test/static/css/main.04a4e0db.css.map",
     "main.22cd657a.js.map": "/frontend-dev-test/static/js/main.22cd657a.js.map"
   },
   "entrypoints": [
-    "static/css/main.769d4198.css",
+    "static/css/main.04a4e0db.css",
     "static/js/main.22cd657a.js"
   ]
 }
