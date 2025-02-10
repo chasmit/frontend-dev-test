@@ -8,7 +8,7 @@ This project is deployed on AWS Amplify at this [link](https://main.d14svrrufh58
 
 I did a React-based project due to my familiarity with the framework, using Javascript, React-Bootstrap components, and .scss for styling.  
 
-I chose React-Bootstrap because I thought I would like the Carousel component more than I did, but I ended up writing my own.  I would probably have taken that approach across the whole project if I had a redo.  I also think Typescript would have made more sense with some of the implementation decisions I made.
+I chose React-Bootstrap because I thought I would like the Carousel component more than I did, but I ended up writing my own.
 
 I chose to host on AWS Amplify because I already had the AWS account, and it turned out to be quite easy.
 
