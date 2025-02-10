@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <Container className="app-container">
+    <Container className="app">
       <Hero/>
       <Sunrise/>
       <MotherAndChild/>

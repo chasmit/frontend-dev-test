@@ -35,4 +35,29 @@
             transition: transform 1s ease-in-out;
         }
     }
+
+    @media (max-width: 768px) {
+        &-text {
+            text-align: center;
+            height: auto;
+            margin-left: 4vw;
+
+            & h1 {
+                font-size: 2rem;
+                margin-top: 10vh;
+            }
+
+            & p {
+                font-size:1rem;
+                margin-left: 12vw;
+            }
+
+            .button {
+                width: 28vw;
+                font-size: 0.8rem;
+                height: 4vh;
+                margin-bottom:4vh;
+            }
+        }
+    }
 }

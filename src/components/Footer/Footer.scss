@@ -20,4 +20,17 @@
             width: 4vw;
         }
     }
+
+    @media (max-width: 768px) {
+        height: 20vh;
+
+        &-text {
+            font-size: 1.2rem;
+        }
+
+        & a img {
+            width: 6vw;
+        }
+    }
+
 }

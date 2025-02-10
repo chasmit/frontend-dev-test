@@ -29,11 +29,44 @@
         }
     }
     &-col-image {
-
         .hikers-sunrise {
             background-size: cover;
             width:100%;
             height:auto;
         }
     }
+
+    @media (max-width: 768px) {
+        .row {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        &-col-text {
+            max-width: 80vw;
+            margin: 5vw auto;
+            padding: 4vw;
+
+            & h1 {
+                font-size: 2rem;
+            }
+
+            & p {
+                font-size: 1.2rem;
+                width: 100%;
+            }
+
+            & h4 {
+                font-size: 1.6rem;
+            }
+        }
+
+        &-col-image {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            margin-top: 4vw;
+        }
+    }
 }
+

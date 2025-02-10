@@ -1,23 +1,15 @@
 .icon-detail {
     width: 100vw;
-    min-height: 100vh;
     padding: 0;
     margin: 0;
 
-    > .row {
-        margin: 0;
-        width: 100%;
-    }
-
     &-text {
-        margin-top: 25vh;
-        justify-items: left;
-        padding: 5rem;
+        width: 80%;
+        margin-left:10vw;
 
         h1 {
             font-size: 4rem;
             font-weight: bolder;  
-            margin-left:16vw;
         }
 
         p {
@@ -25,7 +17,6 @@
             width: 70%;
             line-height: 1.2;
             margin-top:2vh;
-            margin-left:16vw;
         }
 
         h4 {
@@ -33,7 +24,6 @@
             font-size: 2.5rem;
             font-weight: 600;
             margin-top: 2vh;
-            margin-left:16vw;
         }
     }
 
@@ -46,7 +36,7 @@
             grid-gap: 2vw;
             width: 100%;
             padding: 6vw;
-            margin-top: 10vh;
+            margin-top: 2vh;
         }
 
         &-grid::before,&grid::after {
@@ -60,7 +50,7 @@
 
         .icon {
             height: auto;
-            border: 4px solid #b082c4;
+            border: 2px solid #b082c4;
             border-radius: 50%;
             padding: 1.2vw;
             margin-right: 2vw;
@@ -76,6 +66,46 @@
         &:hover {
             .icon {
                 transform: translateY(-5px);
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        &-text {
+            margin-top: 1vh;
+            text-align: center;
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                width: 100%;
+            }
+
+            h4 {
+                font-size: 1.8rem;
+            }
+        }
+
+        .icon-detail-icons {
+            &-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 4vw;
+                margin-left: 20vw;
+            }
+        }
+
+        .icon-wrapper {
+            width: 25vw;
+
+            .icon {
+                padding: 2vw;
+            }
+
+            .icon-text {
+                font-size: 1rem;
             }
         }
     }

@@ -9,10 +9,15 @@
     min-width: 100vw;
     min-height: 50vw;
     padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .row {
-        position: absolute;
-        width:100vw;
+        text-align: center;
+        width:100%;
     }
 
     &-rg-logo-white {
@@ -21,19 +26,30 @@
         width: 20vw;
         top: 2.5vw;
         margin-bottom:20%;
+
+        @media (max-width: 768px) {
+            left: 50%;
+            transform: translateX(-50%);
+            top: 6vw;
+        }
     }
 
     &-row-text {
         display:grid;
         text-align: center;
         align-items: center;
-        margin-top: 18%;
+        margin-top: 10vh;
         animation-name: fade-in;
         animation: fade-in 2s;
 
         & h1 {
             font-size: 8rem;
             font-weight: bold;
+
+            @media (max-width: 768px) {
+                margin-top:1vh;
+                font-size: 4rem;
+            }
         }
 
         & > .text-transparent {
@@ -53,10 +69,17 @@
             font-size: 1.5rem;
             width: 13vw;
             height: 4vw;
-            margin-top:2vw;
+            margin-top:2vh;
+            margin-bottom:3vh;
             place-self: center;
             border:0;
             cursor: pointer;
+
+            @media (max-width: 768px) {
+                width: 28vw;
+                height: 6vw;
+                font-size: 0.8rem;
+            }
         }
     }
 

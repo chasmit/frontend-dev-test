@@ -1,14 +1,13 @@
 .testimonial {
     display: grid;
     width: 100vw;
-    height:70vh;
+    height:auto;
     grid-template-columns: 2fr 3fr;
     gap: 5vw;
     padding: 3vw 12vw;
 
     &-text {
         text-align: left;
-        margin-top: 15vh;
 
         h1 {
             font-size: 4rem;
@@ -30,6 +29,29 @@
         display: grid;
         place-items: center;
         max-width: 60vw;
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        &-text {
+            h1 {
+                font-size: 2rem;
+                text-align: center;
+            }
+            .stars {
+                margin-left: 12vw;
+            }
+            .star-svg {
+                font-size: 2.5rem;
+            }
+        }
+
+        &-carousel {
+            max-width: 100%;
+        }
     }
 }
 
