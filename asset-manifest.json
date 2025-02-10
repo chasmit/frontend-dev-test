@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/frontend-dev-test/static/css/main.d53b0231.css",
+    "main.js": "/frontend-dev-test/static/js/main.22cd657a.js",
+    "static/media/hero.jpg": "/frontend-dev-test/static/media/hero.9a710d871f2c3c7db665.jpg",
+    "static/media/happy-child.jpg": "/frontend-dev-test/static/media/happy-child.94ddf3c2924534d8eb64.jpg",
+    "static/media/mother-and-child.jpg": "/frontend-dev-test/static/media/mother-and-child.4638a869b9ed930f0ccd.jpg",
+    "static/media/hiking-sunrise.jpg": "/frontend-dev-test/static/media/hiking-sunrise.7a73ec856ab331ef3a58.jpg",
+    "static/media/mask-icon.svg": "/frontend-dev-test/static/media/mask-icon.289cbb0a8b82f4fc2a34cfd491f6a9f4.svg",
+    "static/media/calendar-icon.svg": "/frontend-dev-test/static/media/calendar-icon.78e8e24ef2c1f2dfebf1d02ba512652f.svg",
+    "static/media/clipboard-icon.svg": "/frontend-dev-test/static/media/clipboard-icon.431e1bc5f60a7bc5504ffe576e0ffc78.svg",
+    "static/media/logo-white.svg": "/frontend-dev-test/static/media/logo-white.daed702e7dceac6518ac7c3c9c4633f3.svg",
+    "static/media/goggles-icon.svg": "/frontend-dev-test/static/media/goggles-icon.33fec398ac5cad0bdad2540870a20374.svg",
+    "static/media/facebook-logo.svg": "/frontend-dev-test/static/media/facebook-logo.873670bea26cb33377a1c9d4fb5242bb.svg",
+    "static/media/instagram-logo.svg": "/frontend-dev-test/static/media/instagram-logo.3db237929f04d33b0d8113a8b5e95d3c.svg",
+    "index.html": "/frontend-dev-test/index.html",
+    "main.d53b0231.css.map": "/frontend-dev-test/static/css/main.d53b0231.css.map",
+    "main.22cd657a.js.map": "/frontend-dev-test/static/js/main.22cd657a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d53b0231.css",
+    "static/js/main.22cd657a.js"
+  ]
+}
