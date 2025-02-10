@@ -7,6 +7,7 @@ import MotherAndChild from './components/MotherAndChild/MotherAndChild';
 import IconDetail from './components/IconDetail/IconDetail';
 import HappyChild from './components/HappyChild/HappyChild';
 import Testimonial from './components/Testimonial/Testimonial';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <IconDetail/>
       <HappyChild/>
       <Testimonial/>  
+      <Footer/>
     </Container>
   );
 }
