@@ -26,7 +26,7 @@ const testimonialData = [
 
 function Testimonial() {
     return (
-    <Container className="testimonial">
+        <Container className="testimonial">
             <Col className="testimonial-text">
                 <h1>LOREM IPSUM<br/>DOLOR SIT AMET</h1>
                 <span className="stars">
