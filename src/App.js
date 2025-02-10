@@ -6,6 +6,7 @@ import Sunrise from './components/Sunrise/Sunrise';
 import MotherAndChild from './components/MotherAndChild/MotherAndChild';
 import IconDetail from './components/IconDetail/IconDetail';
 import HappyChild from './components/HappyChild/HappyChild';
+import Testimonial from './components/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MotherAndChild/>
       <IconDetail/>
       <HappyChild/>
+      <Testimonial/>  
     </Container>
   );
 }

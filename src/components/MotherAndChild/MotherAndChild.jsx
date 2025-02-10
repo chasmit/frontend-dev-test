@@ -16,7 +16,7 @@ function MotherAndChild() {
     };
 
     return (
-        <Container className="mother-and-child container" id="mother-and-child">
+        <Container className="mother-and-child" id="mother-and-child">
             <Row>
                 <Col md={12} className="mother-and-child-text">
                     <h1>LOREM IPSUM</h1>

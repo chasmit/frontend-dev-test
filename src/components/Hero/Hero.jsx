@@ -14,7 +14,7 @@ function Hero() {
     }
 
     return (
-        <Container className="hero container" id="hero">
+        <Container className="hero " id="hero">
             <Row className="hero-row-logo">
                 <Image
                     src={LogoWhite}

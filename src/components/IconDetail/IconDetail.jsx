@@ -37,7 +37,7 @@ const iconData = [
 
 function IconDetail() {
     return (
-        <Container fluid className="icon-detail container" id="icon-detail">
+        <Container fluid className="icon-detail" id="icon-detail">
             <Row>
                 <Col md={6} lg={6} className="icon-detail-text">
                     <h1>LOREM IPSUM<br/>DOLOR SIT AMET</h1>

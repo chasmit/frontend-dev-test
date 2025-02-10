@@ -16,7 +16,7 @@ function HappyChild() {
         };
 
     return (
-        <Container className="happy-child container">
+        <Container className="happy-child">
             <Row className="happy-child-text">
                 <Col md={6}/>
                 <Col md={6}>
